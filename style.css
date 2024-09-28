@@ -1,5 +1,5 @@
 body {
-    font-family: '你的默认字体';
+    font-family: 'Font1';
     text-align: center;
     padding: 20px;
 }
@@ -27,9 +27,4 @@ button {
 @font-face {
     font-family: 'Font2';
     src: url('fonts/SentyWEN2017.ttf') format('truetype');
-}
-
-/* 默认字体 */
-body {
-    font-family: 'Font1';
 }
