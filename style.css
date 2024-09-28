@@ -1,0 +1,35 @@
+body {
+    font-family: '你的默认字体';
+    text-align: center;
+    padding: 20px;
+}
+
+.poem-container {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+@font-face {
+    font-family: 'Font1';
+    src: url('fonts/HanyiSentyTriumphCalligraphy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Font2';
+    src: url('fonts/SentyWEN2017.ttf') format('truetype');
+}
+
+/* 默认字体 */
+body {
+    font-family: 'Font1';
+}
