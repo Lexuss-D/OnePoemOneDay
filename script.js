@@ -1,6 +1,6 @@
 // 用来存储从 JSON 文件中加载的诗歌
 let poems = [];
-
+const fontScales = [1.9, 1.2];
 // 从 JSON 文件加载诗歌数据
 fetch('poems.json')
     .then(response => response.json())
@@ -36,6 +36,7 @@ const fonts = ['Font1', 'Font2'];  // 你定义的字体名称
 document.getElementById("switch-font").addEventListener("click", function() {
     currentFontIndex = (currentFontIndex + 1) % fonts.length;
     document.getElementById("poem-content").style.fontFamily = fonts[currentFontIndex];
+    document.getElementById("poem-content").style.transform = `scale(${fontScales[currentFontIndex]})`;
 });
 
 // 字体颜色切换功能
