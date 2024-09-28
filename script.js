@@ -1,6 +1,7 @@
 // 用来存储从 JSON 文件中加载的诗歌
 let poems = [];
-const fontScales = [1.9, 1.2];
+const fontScales = [1.9, 1.2]; // 对应每一种字体的放大缩小倍率
+
 // 从 JSON 文件加载诗歌数据
 fetch('poems.json')
     .then(response => response.json())
