@@ -31,7 +31,7 @@ document.getElementById("switch-poem").addEventListener("click", function() {
 
 // 字体切换功能
 let currentFontIndex = 0;
-const fonts = ['Font1', 'Font2', 'Font3'];  // 你定义的字体名称
+const fonts = ['Font1', 'Font2'];  // 你定义的字体名称
 
 document.getElementById("switch-font").addEventListener("click", function() {
     currentFontIndex = (currentFontIndex + 1) % fonts.length;
